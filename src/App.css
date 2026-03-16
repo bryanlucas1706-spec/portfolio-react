@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+    background-color:oklch(47.3% 0.137 46.201);
+    color: oklch(98.4% 0.003 247.858);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid oklch(98.4% 0.003 247.858);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.3s ease;
+}
+
+.container:hover {
+    transform: scale(1.01);
+}
+
+
+h1{
+    margin:10px;
+    font-size: 35px;
+}
+select{
+    background-color: transparent;
+    border: 2px solid oklch(83.7% 0.128 66.29);
+    border-radius: 3px;
+    color: oklch(98.4% 0.003 247.858);
+    font-size: 15px;
+    min-width: 90%;
+    text-align:center;
+}
+
+option{
+    color: oklch(21% 0.034 264.665);
+    font-size: 15px;
+}
+
+option:hover{
+    background-color:oklch(47.3% 0.137 46.201);
+}
+
+table{
+    margin: 10px;
+    font-size: 17px;
+    font-weight: 600;
+}
